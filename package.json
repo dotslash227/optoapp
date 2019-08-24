@@ -5,11 +5,16 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "ios": "react-native run-ios --simulator='iPhone 8 Plus'"
   },
   "dependencies": {
+    "native-base": "^2.13.5",
     "react": "16.8.6",
-    "react-native": "0.60.5"
+    "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-reanimated": "^1.2.0",
+    "react-navigation": "^3.12.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
